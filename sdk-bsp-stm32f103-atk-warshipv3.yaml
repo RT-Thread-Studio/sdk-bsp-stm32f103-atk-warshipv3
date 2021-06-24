@@ -1,0 +1,102 @@
+board:
+  buy_url_cn: https://item.taobao.com/item.htm?&id=20428448343
+  buy_url_global: https://item.taobao.com/item.htm?&id=20428448343
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: 'STM32F103 battleship V3, rich resources, interface, powerful, cost-effective,
+    complete information, cool appearance, humanized layout, rich accessories, accessories
+    rich interface, is a good development board to learn embedded
+
+
+    The appearance of the development board is as follows:'
+  description_zh: 'STM32F103战舰V3，资源丰富，接口多，功能强大，性价比高，资料全，外观炫酷，布局人性化，配件丰富，配件的接口丰富，是学习嵌入式的好开发板
+
+
+    开发板外观如下图所示：'
+  emulator_machine: ''
+  large_image: documents/images/board.jpg
+  name: stm32f103-atk-warshipv3
+  price_cn: 398.00 CNY
+  price_global: 61.489 USD
+  sale_contact_cn: http://www.openedv.com/thread-308933-1-1.html
+  sale_contact_global: http://www.openedv.com/thread-308933-1-1.html
+  small_image: documents/images/boards.jpg
+  vendor: ATK
+  version: 3.0.0
+chip:
+  chip_name: STM32F103ZET6
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F1
+  source_freq: '8000000'
+  sub_series_name: STM32F103
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/战舰V3 STM32F103开发板入门教程&FAQ.pdf
+  title: 战舰V3 STM32F103开发板入门教程&FAQ
+example_projects: []
+features:
+- MCU：STM32F103ZET6，主频 72MHz，512KB FLASH ，64KB RAM
+- 'External Flash: W25Q128 (SPI2, 128MB), EEPROM (24C02)'
+- 'LED: 2 PCS, DS0 (yellow, PB5), DS1 (red, PE5)'
+- 'Buttons: 4, K0 (both with wake-up function, PA0), K1 (PE4), K2 (PE3), K3 (PE2)'
+- 'Common interfaces: USB to serial port, SD card interface, Ethernet interface, LCD
+  interface, USB SLAVE, etc.'
+- Debug interface, onboard ST-LINK SWD download
+features_zh:
+- MCU：STM32F103ZET6，主频 72MHz，512KB FLASH ，64KB RAM
+- 外部 FLASH：W25Q128（SPI2，128MB）、EEPROM（24c02）
+- LED：2个，DS0（黄色，PB5），DS1（红色，PE5）
+- 按键：4个，K0（兼具唤醒功能，PA0），K1（PE4）, K2 (PE3) , K3 (PE2)
+- 常用接口：USB 转串口、SD 卡接口、以太网接口、LCD 接口、USB SLAVE等
+- 调试接口，板载的 ST-LINK SWD 下载
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: stm32f103-atk-warshipv3
+  project_type: rt-thread|@full|@4.0.3
+yaml_version: 3
