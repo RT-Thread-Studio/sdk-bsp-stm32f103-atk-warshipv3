@@ -15,7 +15,7 @@ board:
     开发板外观如下图所示：'
   emulator_machine: ''
   large_image: documents/images/board.jpg
-  name: stm32f103-atk-warshipv3
+  name: STM32F103-ATK-WARSHIPV3
   price_cn: 398.00 CNY
   price_global: 61.489 USD
   sale_contact_cn: http://www.openedv.com/thread-308933-1-1.html
